@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
 	"os"
 	"strconv"
 	"ztool/internal/fb"
+
+	"github.com/spf13/cobra"
 )
 
 var (
