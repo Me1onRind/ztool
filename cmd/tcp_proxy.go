@@ -51,6 +51,7 @@ func init() {
 
 func transMessage(from net.Conn, to net.Conn) {
 	defer from.Close()
+	defer to.Close()
 	defer log.Printf("close connect %s", from.RemoteAddr())
 	buf := make([]byte, 4096)
 	for {
