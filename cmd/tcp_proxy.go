@@ -69,5 +69,6 @@ func transMessage(from net.Conn, to net.Conn) {
 			}
 			return
 		}
+		log.Printf("%s ===> %s\n", from.RemoteAddr(), to.RemoteAddr())
 	}
 }
