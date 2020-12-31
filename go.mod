@@ -1,4 +1,4 @@
-module ztool
+module github.com/Me1onRind/ztool
 
 go 1.13
 

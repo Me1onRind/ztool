@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"ztool/internal/fb"
 
+	"github.com/Me1onRind/ztool/internal/fb"
 	"github.com/spf13/cobra"
 )
 

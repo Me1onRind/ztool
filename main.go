@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"ztool/cmd"
+
+	"github.com/Me1onRind/ztool/cmd"
 )
 
 func main() {
